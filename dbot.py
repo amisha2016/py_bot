@@ -22,7 +22,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content == 'NSO':
+    if message.content == 'stack':
         await message.channel.send(response)
 
 client.run(TOKEN)
